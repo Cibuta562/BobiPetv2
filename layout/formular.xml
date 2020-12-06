@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cdcdcd "
+    tools:context="FormularActivity">
+
+
+    <EditText
+        android:id="@+id/editgoal"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:fontFamily="@font/cabin_bold"
+        android:hint="What is your biggest goal ?"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/mov"
+        android:textColorHint="@color/mov"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewf3" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="201dp"
+        android:layout_height="28dp"
+        android:background="@drawable/labutasex"
+        android:dropDownSelector="@drawable/dropdownbutton"
+        app:layout_constraintEnd_toEndOf="@+id/textViewf4"
+        app:layout_constraintStart_toStartOf="@+id/textViewf1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewf1" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="201dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/labutasex"
+        android:dropDownSelector="@drawable/dropdownbutton"
+        app:layout_constraintEnd_toEndOf="@+id/textViewf4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewf1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewf1" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="201dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/labutasex"
+        android:dropDownSelector="@drawable/dropdownbutton"
+        app:layout_constraintEnd_toEndOf="@+id/textViewf4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textViewf1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewf1" />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:fontFamily="@font/cabin_bold"
+        android:hint="Enter your Name"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/mov"
+        android:textColorHint="@color/mov"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageViewFormular"
+        app:layout_constraintTop_toBottomOf="@+id/editage" />
+
+    <EditText
+        android:id="@+id/editage"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:fontFamily="@font/cabin_bold"
+        android:hint="Enter your Age"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/mov"
+        android:textColorHint="@color/mov"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageViewFormular"
+        app:layout_constraintTop_toTopOf="@+id/imageViewFormular" />
+
+    <ImageView
+        android:id="@+id/imageViewFormular"
+        android:layout_width="151dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/labutamov" />
+
+
+    <Button
+        android:id="@+id/buttonnsubmit1"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_buttom"
+        android:fontFamily="@font/cabin_bold"
+        android:gravity="center_horizontal"
+        android:text="Submit"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#cdcdcd"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewf1"
+        android:layout_width="202dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:fontFamily="@font/cabin_bold"
+        android:text="What are your interests ?"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/mov"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewFormular" />
+
+
+    <TextView
+        android:id="@+id/textViewf3"
+        android:layout_width="202dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:fontFamily="@font/cabin_bold"
+        android:text="Can you pe motivated easily ?"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/mov"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewf4" />
+
+    <TextView
+        android:id="@+id/textViewf4"
+        android:layout_width="202dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:fontFamily="@font/cabin_bold"
+        android:text="Are you productive?"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/mov"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewf1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

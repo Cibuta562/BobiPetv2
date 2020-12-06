@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Insights</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="_465vhj76">465vhj76</string>
+
+    <string-array name="numbers">
+        <item>Music</item>
+        <item>Drama</item>
+        <item>Dance</item>
+        <item>Painting</item>
+        <item>Cooking</item>
+        <item>Sports</item>
+        <item>IT</item>
+        <item>Science</item>
+        <item>Psychology</item>
+        <item>Literature</item>
+        <item>Languages</item>
+    </string-array>
+
+    <string-array name="numbers1">
+        <item>Yes</item>
+        <item>No</item>
+        <item>Sometimes</item>
+    </string-array>
+
+    <string-array name="numbers2">
+        <item>Yes</item>
+        <item>No</item>
+        <item>Sometimes</item>
+    </string-array>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cdcdcd ">
+
+    <TextView
+        android:id="@+id/textViewquests"
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/cabin_bold"
+        android:text='In the "quests" bar you’re going to be given a daily quest. Whenever you finish a given quest you’re going to receive a mistery box in which you can find outfits for your pet and many other special surprises. The quests won’t be hard, just some ideas of activities you never thought of doing.'
+        android:textColor="#5e4c64"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewquests1" />
+
+    <TextView
+        android:id="@+id/textViewquests1"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/cabin_bold"
+        android:text="Quests"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#5e4c64"
+        android:textSize="69sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

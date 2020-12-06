@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+       <!-- <item
+            android:id="@+id/nav_signup"
+            android:icon="@drawable/ic_login"
+            android:title="Sign Up"
+            android:fontFamily="casual"/>-->
+
+       <!-- <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login"
+            android:title="Login"
+            android:fontFamily="casual"/>-->
+
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_pets"
+            android:title="Pets"
+            />
+
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_pets"
+            />
+
+
+        <item
+            android:id="@+id/nav_tasks"
+            android:icon="@drawable/ic_tasks"
+            android:title="Tasks" />
+
+        <item
+            android:id="@+id/nav_quests"
+            android:icon="@drawable/ic_quests"
+            android:title="Quests"/>
+
+
+        <item
+            android:id="@+id/nav_timeline"
+            android:icon="@drawable/ic_timeline"
+            android:title="Timeline" />
+
+
+        <item
+            android:id="@+id/nav_collection"
+            android:icon="@drawable/ic_collection"
+            android:title="Collection" />
+
+
+        <item
+            android:id="@+id/nav_shop"
+            android:title="Shop"
+            android:icon="@drawable/ic_shop"
+            />
+
+        <item
+            android:id="@+id/nav_community"
+            android:title="Community"
+            android:icon="@drawable/ic_community_"/>
+
+
+        <item
+            android:id="@+id/nav_achievements"
+            android:title="Achievements"
+            android:icon="@drawable/ic_achievements_"/>
+
+        <item
+            android:id="@+id/nav_news"
+            android:title="News"
+            android:icon="@drawable/ic_news"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Log Out"
+            android:icon="@drawable/ic_login"/>
+
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+
+    </group>
+
+
+
+
+
+
+</menu>

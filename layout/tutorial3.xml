@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cdcdcd ">
+
+    <TextView
+        android:id="@+id/textViewtasks1"
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/cabin_bold"
+        android:text='In the "tasks" bar you’re going to be able to see and choose whatever tasks you decide to do each and every day. You can choose a specific timetable or you can set an activity at a certain hour. One way or another, here is where you can do your job, while you’re also taking good care of your pet.'
+        android:textColor="#5e4c64"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtasks" />
+
+    <TextView
+        android:id="@+id/textViewtasks"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/cabin_bold"
+        android:text="Tasks"
+        android:textAlignment="center"
+        android:textColor="#5e4c64"
+        android:textSize="69sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
