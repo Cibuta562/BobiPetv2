@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "32871773158",
+    "firebase_url": "https://bobi-pet.firebaseio.com",
+    "project_id": "bobi-pet",
+    "storage_bucket": "bobi-pet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32871773158:android:c5967bee25e7ff81479c27",
+        "android_client_info": {
+          "package_name": "com.example.insights"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32871773158-qh4nj4lp7qurh4vfk0bfkv6kq5674mnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsKboHT3Gsjf5Zb2QS_a3ZTcNhKgAXjAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32871773158-qh4nj4lp7qurh4vfk0bfkv6kq5674mnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
